@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sor.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>SOR</title>
+</head>
+<body>
+    <h1 style="font-family:Poppins";>Sistema de organizacion</h1>
+    <div id="logo"></div>
+    <div id="form">
+    <form action="/Proyecto-Angie-master/" method="post">
+        <ul>
+            <li>
+            <label for="name">Nombre: </label>
+            <input type="text" id="name" name="user_name">
+        </li>
+        <li>
+            <label for="reserva">Numero de reserva: </label> 
+            <input type="number" id="reserva" name="user_reserva">
+        </li>
+        <li>
+            <label for="cantidad">Numero de personas:</label>
+            <input type="number" id="cantidad" name="user_cantidad">
+        </li>
+        <li class="button"><button type="submit" style="font-family:Poppins";>Comprobar</button></li>
+        </ul>
+    </form>
+    </div>
+
+    <div id="cuadro">
+        <div id="imagen"><br>
+            <h2 style="font-family:Poppins" ;>Seleccione su mesa</h2>
+        </div><br>
+        1<input type="checkbox" name="1" id="1"><br>
+        2<input type="checkbox" name="2" id="2"><br>
+        3<input type="checkbox" name="3" id="3"><br>
+        4<input type="checkbox" name="4" id="4"><br>
+        5<input type="checkbox" name="5" id="5"><br>
+        6<input type="checkbox" name="6" id="6"><br>
+        7<input type="checkbox" name="7" id="7"><br>
+        8<input type="checkbox" name="8" id="8"><br>
+        9<input type="checkbox" name="9" id="9"><br>
+        10<input type="checkbox" name="10" id="10"><br>
+        11<input type="checkbox" name="11" id="11"><br>
+        12<input type="checkbox" name="12" id="12"><br>
+        <br><button onclick="validar()" style="font-family:Poppins";>validar</button>
+        <br><div id="mensaje" style="font-family:Poppins";></div>
+        <script src="sor.js"></script>
+    </div>
+</body>
+</html>
